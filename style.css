@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Rokkitt', Helvetica, Arial, sans-serif
+}
+
+#header {
+  background-image: url(/images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-start;
+ padding-top: 2.5em;
+}
+
+nav h2 {
+  letter-spacing: 1px;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.4em;
+}
+
+nav ul li {
+  list-style: none;
+  padding-left: 2em;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+#contact {
+  /* margin-top: 0.2em; */
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+
+#creatives {
+  margin-top: 5.5em;
+  margin-left: 35%;
+}
+
+
+#creatives h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#arrow {
+  margin-top: 4.8em;
+  margin-left: 11em;
+} 
+
+/* #header h1 {
+  text-transform: uppercase;
+} */
