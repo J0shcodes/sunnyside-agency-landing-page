@@ -37,6 +37,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   margin-top: 0.4em;
+  padding: 0;
 }
 
 nav ul li {
@@ -50,7 +51,6 @@ nav ul li a {
 }
 
 #contact {
-  /* margin-top: 0.2em; */
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
@@ -78,6 +78,164 @@ nav ul li a {
   margin-left: 11em;
 } 
 
-/* #header h1 {
+
+#transform {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  background: #fff;
+  flex: 50% 50%;
+}
+
+#transform-text {
+  max-width: 50%;
+  height: 80vh;
+}
+
+#transform-textcontent {
+  margin: 12em 5em;
+  margin-bottom: 0;
+  padding-right: 1em;
+}
+
+#transform-textcontent h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 5em;
+  
+}
+
+#transform-textcontent p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#transform-textcontent a {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
   text-transform: uppercase;
-} */
+}
+
+#transform-textcontent a:hover {
+  color: yellow;
+}
+
+
+#transform-image {
+  max-width: 50%;
+  height: 80vh;
+}
+
+#stand-out {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  background: #fff;
+  flex: 50% 50%;
+}
+
+#stand-out-text {
+  max-width: 50%;
+  
+}
+
+#stand-out-textcontent {
+  margin: 12em 5em;
+  margin-bottom: 0;
+  padding-right: 1em;
+}
+
+#stand-out-textcontent h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 3em;
+  
+}
+
+#stand-out-textcontent p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#stand-out-textcontent a {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#stand-out-textcontent a:hover {
+  color: pink;
+}
+
+
+#stand-out-image {
+  max-width: 50%;
+  
+}
+
+#design {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  background: #fff;
+  flex: 50% 50%;
+}
+
+#stand-out-text {
+  max-width: 50%;
+}
+
+#stand-out-textcontent {
+  margin: 12em 5em;
+  margin-bottom: 0;
+  padding-right: 1em;
+}
+
+#stand-out-textcontent h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 3em;
+  
+}
+
+#stand-out-textcontent p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#stand-out-textcontent a {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#stand-out-textcontent a:hover {
+  color: pink;
+}
+
+
+#stand-out-image {
+  max-width: 50%;
+}
+
+#graphic {
+  background-image: url('/images/desktop/image-graphic-design.jpg');
+}
+
+#photo {
+  background-image: url('/images/desktop/image-photography.jpg');
+}
+
+
